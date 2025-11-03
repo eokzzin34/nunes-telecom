@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Serviços - Nunes Telecom</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+:root{
+  --primary:#a00000;
+  --dark:#222;
+  --bg:#f4f4f4;
+  --card:#fff;
+  --max-width:1100px;
+}
+*{box-sizing:border-box;}
+body{font-family:Poppins,Arial,sans-serif;margin:0;background:var(--bg);color:#333;line-height:1.6;}
+header{background:linear-gradient(135deg,var(--primary),#a00000);color:white;box-shadow:0 2px 8px rgba(0,0,0,0.2);}
+.header-inner{max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:14px 20px;}
+.brand{display:flex;align-items:center;gap:14px;}
+.brand img{max-width:100px;height:auto;}
+.brand h1{margin:0;font-size:1.5rem;}
+.brand p{margin:0;font-size:0.9rem;}
+nav{background:var(--dark);text-align:center;padding:10px;}
+nav a{color:white;text-decoration:none;margin:0 14px;font-weight:700;}
+nav a:hover{color:var(--primary);}
+main{max-width:var(--max-width);margin:30px auto;background:var(--card);padding:36px;border-radius:12px;box-shadow:0 6px 16px rgba(0,0,0,0.1);}
+main h2{color:var(--primary);}
+.services{display:flex;flex-wrap:wrap;gap:24px;justify-content:center;margin-top:20px;}
+.card{background:#fff;border:1px solid #ddd;border-radius:12px;padding:0;overflow:hidden;width:300px;box-shadow:0 4px 10px rgba(0,0,0,0.08);transition:transform .2s,box-shadow .2s;}
+.card:hover{transform:scale(1.05);box-shadow:0 6px 18px rgba(0,0,0,0.15);}
+.card img{width:100%;height:180px;object-fit:cover;border-bottom:3px solid var(--primary);}
+.card-content{padding:18px;}
+.card-content h3{color:var(--primary);margin-top:0;}
+footer{background:var(--dark);color:white;padding:20px;}
+.footer-inner{max-width:var(--max-width);margin:0 auto;display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:20px;}
+footer i{color:var(--primary);margin-right:8px;}
+iframe{border:0;width:100%;height:150px;border-radius:10px;}
+.footer-col{flex:1 1 300px;min-width:200px;}
+.footer-center{text-align:center;}
+.footer-right{text-align:right;}
+@media(max-width:800px){
+  .footer-right,.footer-center{text-align:left;}
+  .services{flex-direction:column;align-items:center;}
+  .card{width:90%;}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <img src="Nunes.png" alt="Logo Nunes Telecom">
+      <div>
+        <h1>Nunes Telecom</h1>
+        <p>Conectando você ao que importa</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <a href="index.html">Início</a>
+  <a href="historia.html">História</a>
+  <a href="somos.html">Quem Somos</a>
+  <a href="servicos.html">Serviços</a>
+  <a href="contato.html">Contato</a>
+</nav>
+
+<main>
+  <h2>Nossos Serviços</h2>
+  <p>A <strong>Nunes Telecom</strong> oferece soluções completas em tecnologia, segurança e comunicação. Confira abaixo nossos principais serviços — cada um planejado para oferecer qualidade, desempenho e tranquilidade para nossos clientes.</p>
+
+  <div class="services">
+
+    <div class="card">
+      <img src="PABX.png" alt="Serviço de PABX">
+      <div class="card-content">
+        <h3><i class="fa fa-phone"></i> PABX</h3>
+        <p>Instalação e manutenção de sistemas PABX analógicos, digitais e IP. Comunicação eficiente e profissional para empresas de todos os portes.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="CFTV.jpg" alt="Câmeras de segurança">
+      <div class="card-content">
+        <h3><i class="fa fa-video"></i> Câmeras de Segurança</h3>
+        <p>Monitoramento com câmeras HD e Full HD, acesso remoto via celular e gravação em nuvem. Proteja o que mais importa com tecnologia de ponta.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="alarme.jpg" alt="Alarmes e sensores">
+      <div class="card-content">
+        <h3><i class="fa fa-shield-halved"></i> Alarmes e Sensores</h3>
+        <p>Soluções modernas em alarmes residenciais e comerciais, com sensores de presença, abertura e sistemas de notificação inteligente.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="rede.jpeg" alt="Redes estruturadas">
+      <div class="card-content">
+        <h3><i class="fa fa-network-wired"></i> Redes Estruturadas</h3>
+        <p>Projetos completos de cabeamento e infraestrutura de rede, com alto desempenho e segurança para ambientes corporativos.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="interfone.jpg" alt="Interfonia e controle de acesso">
+      <div class="card-content">
+        <h3><i class="fa fa-house-signal"></i> Interfonia e Controle de Acesso</h3>
+        <p>Instalação e manutenção de interfones com áudio e vídeo, sistemas de portaria inteligente e controle de entrada por senha, cartão ou biometria.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="concertina.jpg" alt="Instalação de concertina">
+      <div class="card-content">
+        <h3><i class="fa fa-fort-awesome"></i> Concertina</h3>
+        <p>Instalação de concertinas de alta segurança para muros e cercas. Proteção física eficiente e durável para residências e empresas.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="cerca.jpg" alt="Cerca elétrica de segurança">
+      <div class="card-content">
+        <h3><i class="fa fa-bolt"></i> Cerca Elétrica</h3>
+        <p>Instalação e manutenção de cercas elétricas com alarmes integrados e monitoramento. Solução eficaz para prevenção de invasões.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="manutencao.jpg" alt="Manutenção e suporte técnico">
+      <div class="card-content">
+        <h3><i class="fa fa-screwdriver-wrench"></i> Manutenção e Suporte</h3>
+        <p>Equipe técnica qualificada para manutenção preventiva e corretiva. Garantia de funcionamento contínuo dos sistemas instalados.</p>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-col">
+      <p><i class="fa fa-phone"></i> (34) 99668-4714</p>
+      <p><i class="fa fa-envelope"></i> carlisma.nunes@gmail.com</p>
+      <p><i class="fa fa-map-marker-alt"></i> Av. Senador Elizeu Resende, 641</p>
+    </div>
+    <div class="footer-col footer-center">
+      <iframe src="https://www.google.com/maps?q=Av.%20Senador%20Elizeu%20Resende%20641&output=embed"></iframe>
+    </div>
+    <div class="footer-col footer-right">
+      <p>© 2025 Nunes Telecom</p>
+      <p>Todos os direitos reservados</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
